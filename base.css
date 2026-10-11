@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --width: 1440px;
+    /* Block dimensions */
+    --menu-width: 720px;
+    --menu-height: 120px;
+    --header-width: 720px;
+    --header-height: 120px;
+    --content-width: 1440px;
+    --content-height: 1426px;
+    --about-width: 1320px;
+    --about-height: 550px;
+    --works-width: 1320px;
+    --works-height: 700px;
+    --additional-width: 720px;
+    --additional-height: 154px;
+    --footer-width: 720px;
+    --footer-height: 154px;
+    /* Colors */
+    --color-background: #F7F4EF;
+    --color-beige: #E8DED1;
+    --color-dark: #332C27;
+    --color-brown: #8B674C;
+    --color-white: #FFFFFF;
+    --color-text: #66564B;
+    /* Fonts */
+    --font-family-heading: 'Playfair Display', serif;
+    --font-family-text: 'Inter', sans-serif;
+    /* Font size */
+    --font-size-h1: 64px;
+    --font-size-h2: 48px;
+    --font-size-h3: 28px;
+    --font-size-h4: 22px;
+    --font-size-p: 20px;
+    --font-size-menu: 24px;
+}
