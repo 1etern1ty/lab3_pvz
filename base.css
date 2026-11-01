@@ -2,21 +2,10 @@
 
 :root {
     --width: 1440px;
-    /* Block dimensions */
-    --menu-width: 720px;
-    --menu-height: 120px;
-    --header-width: 720px;
-    --header-height: 120px;
-    --content-width: 1440px;
-    --content-height: 1426px;
-    --about-width: 1320px;
-    --about-height: 550px;
-    --works-width: 1320px;
-    --works-height: 700px;
-    --additional-width: 720px;
-    --additional-height: 154px;
-    --footer-width: 720px;
-    --footer-height: 154px;
+    /* Adaptive dimensions */
+    --container-max-width: 1440px;
+    --content-max-width: 1320px;
+    --page-padding: 30px;
     /* Colors */
     --color-background: #F7F4EF;
     --color-beige: #E8DED1;

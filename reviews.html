@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Відгуки | Agatha Christie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="books.html">Книги</a></li>
+                    <li><a href="biography.html">Життя авторки</a></li>
+                    <li><a href="reviews.html">Відгуки</a></li>
+                </ul>
+            </nav>
+            <header class="header">
+                <h2>Agatha Christie</h2>
+                <p>The Queen of Crime</p>
+            </header>
+        </div>
+
+        <main class="content">
+           <section class="reviews-section">
+            <p class="reviews-label">READERS' REVIEWS</p>
+            <article class="review-card">
+                <div class="review-author">
+                    <img src="gallery/avatar1.jpeg" alt="Аватар">
+                    <div>
+                        <h4>Марія</h4>
+                        <p>"Убивство Роджера Екройда"</p>
+                    </div>
+                </div>
+                <p class="review-rating">★★★★★</p>
+                <blockquote>
+                    «Дуже захоплива книга! До останньої сторінки я навіть не здогадувалася, хто вбивця.
+                    Фінал мене справді здивував»
+                </blockquote>
+            </article>
+
+            <article class="review-card">
+                <div class="review-author">
+                    <img src="gallery/avatar2.jpeg" alt="Аватар">
+                    <div>
+                        <h4>Олександр</h4>
+                        <p>"Вбивство у Східному експресі"</p>
+                    </div>
+                </div>
+                <p class="review-rating">★★★★★</p>
+                <blockquote>
+                    «Мені сподобалася атмосфера роману та те, як Пуаро поступово розкриває таємницю. 
+                    Дуже цікава історія»
+                </blockquote>
+            </article>
+
+            <article class="review-card">
+                <div class="review-author">
+                    <img src="gallery/avatar3.jpeg" alt="Аватар">
+                    <div>
+                        <h4>Анна</h4>
+                        <p>"Кривий будиночок"</p>
+                    </div>
+                </div>
+                <p class="review-rating">★★★★☆</p>
+                <blockquote>
+                    «Цікавий сюжет і добре продумані персонажі.
+                    Спочатку історія розвивалася трохи повільно, але розв'язка була несподіваною»
+                </blockquote>
+            </article>
+
+            <article class="review-card">
+                <div class="review-author">
+                    <img src="gallery/avatar4.jpeg" alt="Аватар">
+                    <div>
+                        <h4>Софія</h4>
+                        <p>"І не лишилось жодного"</p>
+                    </div>
+                </div>
+                <p class="review-rating">★★★★★</p>
+                <blockquote>
+                    «Один із найцікавіших детективів, які я читала. Атмосфера загадковості та напруги 
+                    зберігається до самого кінця. Книгу було важко відкласти»
+                </blockquote>
+            </article>
+           </section>
+
+           <section class="review-form-section">
+            <h2>Залишити відгук</h2>
+            <p>Поділіться своїми враженнями від прочитаної книги.</p>
+
+            <form class="review-form">
+                <label for="name">Ваше імʼя</label>
+                <input type="text" id="name" name="name" placeholder="Введіть ваше імʼя" required>
+
+                <label for="book">Назва книги</label>
+                <input type="text" id="book" name="book" placeholder='"Вбивство у Східному експресі"' required>
+
+                <label for="rating">Оцінка</label>
+                <select id="rating" name="rating" required>
+                    <option value="" disabled selected>Оберіть оцінку</option>
+                    <option value="5">Відмінно</option>
+                    <option value="4">Добре</option>
+                    <option value="3">Нормально</option>
+                    <option value="2">Не дуже</option>
+                    <option value="1">Погано</option>
+                </select>
+
+                <label for="review">Ваш відгук</label>
+                <textarea name="review" id="review" rows="5" placeholder="Поділіться своїми враженнями від книги..." required></textarea>
+
+                <button type="submit">Надіслати відгук</button>
+            </form>
+           </section>
+        </main>
+
+        <div class="bottom">
+            <aside class="additional" id="links">
+                <h3>EXPLORE MORE</h3>
+                <ul>
+                    <li><a href="https://www.agathachristie.com/">Official Website</a></li>
+                    <li><a href="https://www.agathachristie.com/about-christie">Biography</a></li>
+                    <li><a href="https://www.agathachristie.com/stories">Discover Her Books</a></li>
+                </ul>
+            </aside>
+
+            <footer class="footer" id="contacts">
+                <h3>AGATHA CHRISTIE</h3>
+                <p>Literary Portfolio • Educational Project</p>
+                <p>© 2026 | Created for educational purposes</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
